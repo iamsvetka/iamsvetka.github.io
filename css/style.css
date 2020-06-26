@@ -1,0 +1,132 @@
+body {
+    background-color: black;
+}
+
+.cpicok {
+    color: aliceblue;
+    font-family: sans-serif;
+    display: flex;
+    list-style: none;
+}
+
+.h {
+    color: aliceblue;
+    font-family: monospace;
+    font-size: 50px;
+}
+
+header {
+    background-color: #222222;
+}
+
+p {
+    color: aliceblue;
+    font-family: cursive;
+}
+
+.advantages {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 20px;
+}
+
+.cpicok2 {
+    color: aliceblue;
+    list-style: none;
+}
+
+.h2 {
+    color: yellow;
+    font-size: 50px;
+    font-family: monospace;
+}
+
+
+.tb {
+    color: aliceblue;
+    padding: 20px;
+}
+
+/* * {
+    outline: 1px solid red;
+} */
+
+.container {
+    width: 1040px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.container-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.p {
+    color: aliceblue;
+    font-family: cursive;
+}
+
+
+
+nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+footer {
+    background-color: #131313;
+    margin: 20px;
+}
+
+
+
+button {
+    border-radius: 100px;
+    color: black;
+    background-color: yellow;
+    font-family: cursive;
+    width: 250px;
+    height: 50px;
+    display: inline-block;
+}
+
+
+li {
+    color: aliceblue;
+    list-style: none;
+    font-family: cursive;
+    padding: 20px;
+}
+
+.left-column {
+    display: flex;
+    /*width:;
+    margin: ;*/
+    flex-direction: row;
+}
+
+.right-column {
+    display: flex;
+    /*width:;
+    margin: ;*/
+    flex-direction: row;
+}
+
+
+.footer-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.header-table {
+    display: flex;
+    flex-direction: row;
+}
